@@ -1,0 +1,7 @@
+.item-list li:hover{
+    cursor: pointer;
+    background-color: #1d2f42;
+}
+.item-list {
+    min-height: 471px;
+}

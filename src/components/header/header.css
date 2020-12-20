@@ -1,0 +1,21 @@
+.header {
+    padding: 0 2vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.header-logo {
+    font-size: calc(18px + 2vw);
+    font-weight: 700;
+}
+.header-navigation {
+    display: flex;
+    list-style: none;
+    font-size: calc(14px + 1vmin);
+}
+.header-navigation li {
+    margin-right: 50px;
+}
+.header-navigation li:last-child {
+    margin-right: 0;
+}
