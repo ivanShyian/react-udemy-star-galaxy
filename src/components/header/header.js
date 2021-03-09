@@ -1,5 +1,7 @@
 import React from 'react';
 import  './header.css'
+import {NavLink} from "react-router-dom";
+
 
 const Header = () => {
     return (
@@ -7,13 +9,13 @@ const Header = () => {
             <h3 className='header-logo'>Star DB</h3>
             <ul className='header-navigation'>
                <li>
-                   <a href='#'>People</a>
+                   <NavLink to='/' activeClassName='is-active' exact>People</NavLink>
                </li>
                 <li>
-                    <a href='#'>Planets</a>
+                    <NavLink to='/planets' activeClassName='is-active'>Planets</NavLink>
                 </li>
                 <li>
-                    <a href='#'>Starships</a>
+                    <NavLink to='/starships' activeClassName='is-active'>Planets</NavLink>
                 </li>
             </ul>
         </div>
